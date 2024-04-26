@@ -16,3 +16,4 @@ Binary Search Trees:
       Go to right child of node you’re deleting, then go down left children until no left children left, then swap it in
     Best Theta(1), avg Theta(logn), Worst Theta(n) for search, insert, delete (but best case for insertion is rare, only if inserting first value iirc)
     Traversal worst case collapses when BST is skewed (just one long chain of just right and left subchildren)
+* BSTs can be skewed and still work, but red-black trees are preferred to stay balanced
